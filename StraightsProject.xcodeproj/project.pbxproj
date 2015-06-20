@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39065B451B34FCF100FDBF18 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39065B441B34FCF100FDBF18 /* main.cpp */; };
+		39065B581B34FD2100FDBF18 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39065B4B1B34FD2100FDBF18 /* Game.cpp */; };
+		39065B591B34FD2100FDBF18 /* CompPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39065B4C1B34FD2100FDBF18 /* CompPlayer.cpp */; };
+		39065B5A1B34FD2100FDBF18 /* GenPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39065B4E1B34FD2100FDBF18 /* GenPlayer.cpp */; };
+		39065B5B1B34FD2100FDBF18 /* HumanPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39065B511B34FD2100FDBF18 /* HumanPlayer.cpp */; };
+		39065B5C1B34FD2100FDBF18 /* Command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39065B551B34FD2100FDBF18 /* Command.cpp */; };
+		39065B5D1B34FD2100FDBF18 /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39065B571B34FD2100FDBF18 /* Card.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +29,19 @@
 
 /* Begin PBXFileReference section */
 		39065B411B34FCF100FDBF18 /* StraightsProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StraightsProject; sourceTree = BUILT_PRODUCTS_DIR; };
-		39065B441B34FCF100FDBF18 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		39065B4B1B34FD2100FDBF18 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		39065B4C1B34FD2100FDBF18 /* CompPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CompPlayer.cpp; sourceTree = "<group>"; };
+		39065B4D1B34FD2100FDBF18 /* CompPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompPlayer.h; sourceTree = "<group>"; };
+		39065B4E1B34FD2100FDBF18 /* GenPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GenPlayer.cpp; sourceTree = "<group>"; };
+		39065B4F1B34FD2100FDBF18 /* GenPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenPlayer.h; sourceTree = "<group>"; };
+		39065B501B34FD2100FDBF18 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		39065B511B34FD2100FDBF18 /* HumanPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HumanPlayer.cpp; sourceTree = "<group>"; };
+		39065B521B34FD2100FDBF18 /* HumanPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumanPlayer.h; sourceTree = "<group>"; };
+		39065B531B34FD2100FDBF18 /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
+		39065B541B34FD2100FDBF18 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		39065B551B34FD2100FDBF18 /* Command.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Command.cpp; sourceTree = "<group>"; };
+		39065B561B34FD2100FDBF18 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		39065B571B34FD2100FDBF18 /* Card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +74,19 @@
 		39065B431B34FCF100FDBF18 /* StraightsProject */ = {
 			isa = PBXGroup;
 			children = (
-				39065B441B34FCF100FDBF18 /* main.cpp */,
+				39065B4B1B34FD2100FDBF18 /* Game.cpp */,
+				39065B4C1B34FD2100FDBF18 /* CompPlayer.cpp */,
+				39065B4D1B34FD2100FDBF18 /* CompPlayer.h */,
+				39065B4E1B34FD2100FDBF18 /* GenPlayer.cpp */,
+				39065B4F1B34FD2100FDBF18 /* GenPlayer.h */,
+				39065B501B34FD2100FDBF18 /* Game.h */,
+				39065B511B34FD2100FDBF18 /* HumanPlayer.cpp */,
+				39065B521B34FD2100FDBF18 /* HumanPlayer.h */,
+				39065B531B34FD2100FDBF18 /* Subject.h */,
+				39065B541B34FD2100FDBF18 /* Command.h */,
+				39065B551B34FD2100FDBF18 /* Command.cpp */,
+				39065B561B34FD2100FDBF18 /* Card.h */,
+				39065B571B34FD2100FDBF18 /* Card.cpp */,
 			);
 			path = StraightsProject;
 			sourceTree = "<group>";
@@ -118,7 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39065B451B34FCF100FDBF18 /* main.cpp in Sources */,
+				39065B591B34FD2100FDBF18 /* CompPlayer.cpp in Sources */,
+				39065B5C1B34FD2100FDBF18 /* Command.cpp in Sources */,
+				39065B5A1B34FD2100FDBF18 /* GenPlayer.cpp in Sources */,
+				39065B5B1B34FD2100FDBF18 /* HumanPlayer.cpp in Sources */,
+				39065B581B34FD2100FDBF18 /* Game.cpp in Sources */,
+				39065B5D1B34FD2100FDBF18 /* Card.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
