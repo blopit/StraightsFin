@@ -37,7 +37,6 @@
 		39065B501B34FD2100FDBF18 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 		39065B511B34FD2100FDBF18 /* HumanPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HumanPlayer.cpp; sourceTree = "<group>"; };
 		39065B521B34FD2100FDBF18 /* HumanPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumanPlayer.h; sourceTree = "<group>"; };
-		39065B531B34FD2100FDBF18 /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
 		39065B541B34FD2100FDBF18 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
 		39065B551B34FD2100FDBF18 /* Command.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Command.cpp; sourceTree = "<group>"; };
 		39065B561B34FD2100FDBF18 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
@@ -82,7 +81,6 @@
 				39065B501B34FD2100FDBF18 /* Game.h */,
 				39065B511B34FD2100FDBF18 /* HumanPlayer.cpp */,
 				39065B521B34FD2100FDBF18 /* HumanPlayer.h */,
-				39065B531B34FD2100FDBF18 /* Subject.h */,
 				39065B541B34FD2100FDBF18 /* Command.h */,
 				39065B551B34FD2100FDBF18 /* Command.cpp */,
 				39065B561B34FD2100FDBF18 /* Card.h */,
